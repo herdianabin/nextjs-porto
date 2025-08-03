@@ -2,15 +2,14 @@
   "name": "iseng",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://herdianxyz.github.io/nextjs-porto",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
+    "@lume/three-meshline": "^4.0.5",
     "@react-three/drei": "^10.6.1",
     "@react-three/fiber": "^9.3.0",
     "@react-three/rapier": "^2.1.0",
@@ -30,7 +29,6 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
